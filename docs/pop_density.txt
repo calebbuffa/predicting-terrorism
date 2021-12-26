@@ -1,0 +1,31 @@
+Exploratory Regression
+=====================
+Parameters
+
+Input Features     europe_grid_gtd_per_hexagon
+Dependent Variable     europe_grid_gtd_per_hexagon.Point_Count
+Candidate Explanatory Variables     ZonalSt_pop_density.MIN;ZonalSt_pop_density.MAX;ZonalSt_pop_density.RANGE;ZonalSt_pop_density.MEAN;ZonalSt_pop_density.STD;ZonalSt_pop_density.SUM;ZonalSt_pop_density.VARIETY;ZonalSt_pop_density.MAJORITY;ZonalSt_pop_density.MINORITY;ZonalSt_pop_density.MEDIAN
+Weights Matrix File     
+Output Report File     
+Output Results Table     
+Maximum Number of Explanatory Variables     5
+Minimum Number of Explanatory Variables     1
+Minimum Acceptable Adj R Squared     0.5
+Maximum Coefficient p value Cutoff     0.05
+Maximum VIF Value Cutoff     7.5
+Minimum Acceptable Jarque Bera p value     0.1
+Minimum Acceptable Spatial Autocorrelation p value     0.1
+=====================
+
+Summary of Variable Significance
+Variable			% Significant	% Negative	% Positive
+ZONALST_POP_DENSITY.VARIETY	95.47		96.71		3.29
+ZONALST_POP_DENSITY.MAJORITY	87.24		95.06		4.94
+ZONALST_POP_DENSITY.MEDIAN	48.56		3.29		96.71
+ZONALST_POP_DENSITY.MEAN	41.56		6.58		93.42
+ZONALST_POP_DENSITY.SUM	37.04	0.00		100.00
+ZONALST_POP_DENSITY.MAX	31.22	44.88		55.12
+ZONALST_POP_DENSITY.RANGE	31.22		61.46		38.54
+ZONALST_POP_DENSITY.MIN	27.31	11.89		88.11
+ZONALST_POP_DENSITY.MINORITY	24.23		41.85		58.15
+ZONALST_POP_DENSITY.STD	13.99	76.95		23.05

@@ -1,0 +1,5 @@
+**/*.csv
+data/raw/*
+docs/visualizations/*
+**/*__pycache__/*
+**/*.ipynb
