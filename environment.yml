@@ -2,12 +2,12 @@ name: env
 channels:
   - defaults
 dependencies:
+  - python==3.7
   - esda
   - numpy
   - scikit-learn
   - matplotlib
   - geopandas
-  - python=3.7
   - pysal
   - ipykernel
   - plotly
