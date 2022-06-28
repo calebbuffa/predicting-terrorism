@@ -51,7 +51,7 @@ def main(workspace: str, shape: str, size: str):
         print("Adding xy coordinates...")
         data = arcpy.management.AddXY(f"{shape}_{size}_data")
         print("Extracting pixel values...")
-        
+
         print("Exporting csv...")
         arcpy.conversion.TableToTable(
             data, os.getcwd(), f"{shape}_{size}_data.csv",
